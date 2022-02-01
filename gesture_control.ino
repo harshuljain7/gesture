@@ -16,7 +16,6 @@ pinMode(echo2, INPUT)
 ; 
 }
 
-/*###Function to calculate distance###*/
 void calculate_distance(int trigger, int echo)
 {
 digitalWrite(trigger, LOW);
